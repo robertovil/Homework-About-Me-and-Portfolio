@@ -1,0 +1,82 @@
+/*big structural blocks here*/
+html{
+	background-color:white;
+	height:100%; /*makes the html tag the height of your browser*/;
+}
+
+body{
+	background-color:#D8D8D8;
+	width: 70%;
+	min-height: 100%; /*makes body tag at least as high as the html tag*/
+	margin: 1%;
+	padding: 50px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#707070;
+	border: 15px solid black;
+	background-image: src="images/r-photo.png";
+}
+
+nav{
+	background-color:#B8B8B8;
+	padding: 10px;
+	border-radius:1px;
+	text-align: left; 
+	font-weight: bold;
+	border: 15px solid black;
+}
+
+footer{ 
+	font-family: "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
+}
+
+/*individual bits here*/
+
+/*headings*/
+h1, h2{ /*both the same for these attributes*/
+	color:#505050;
+	text-shadow: 2px 1px white;
+}
+h1{ 
+	letter-spacing: 10px;
+}	
+
+/*images*/
+img{ /* images anywhere */
+	width: 33%;
+	height: auto;
+}
+a img{ /* images inside anchors */
+	width:36px;
+	height:36px;
+	border:88;
+}
+
+/* anchors */
+a {text-decoration: none;} /* anchors anywhere */
+body a{padding-right: 50px;} /* anchors inside body - combine with  above ie anchor anywhere? */
+/* so instead maybe these 2 lines and just write:;
+a{
+	text-decoration: none;
+	padding-right: 50px;
+}
+- try it! */
+nav a{padding-right: 20px;} /*anchors inside nav*/
+
+/* unvisited and visited link */
+a:link, a:visited { /* same for both*/
+	color: #000000;
+}
+/* mouse over and active link */
+a:hover, a:active { /*same for both*/	
+	color: #FFFFFF ;
+}
+
+hr{width: 100%;
+border-width: 0;
+height: 15px;
+background-color: #787878 ;
+border: none;
+}
+
+
+
